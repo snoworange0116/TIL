@@ -37,4 +37,5 @@ git ignore : git에게 특정 파일들은 빼놓길 원할 때
 git readme : 만들 프로젝트에 대한 설명서를 쓰는 습관을 들여야 함.
 git remote -v : 어떤 주소가 별명인지 확인하는 법
 
-git pull origin master : origin이라고 하는 원격저장소의 master를 땡겨와
+git pull origin master : origin이라고 하는 원격저장소의 master를 땡겨오는 기능임.
+
