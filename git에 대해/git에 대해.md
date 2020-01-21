@@ -4,10 +4,10 @@ git을 통해 차이가 무엇인지, 수정 이유를 log로 남길 수 있다.
 
 add : 커밋할 목록에 추가
 commit : 커밋 만들기
-push 혀재까지의 역사가 기록되어 있는 곳에 새로 생성한 커밋들 반영하기.
+push : 현재까지의 역사가 기록되어 있는 곳에 새로 생성한 커밋들 반영하기.
 
 git add helloworld.py
-git commit -m
+git commit -m (메세지 추가)
 git config -global
 
 
@@ -15,8 +15,8 @@ git config -global
 ### git bash를 통해 git hub 업로드 하는 방법
 
 1. 해당 폴더에서 마우스 우클릭 -> git bash열기 클릭
-2. gitbash에서 git init
-3. git add .(현재 폴더 내의 모든 폴더, 파일 임시저장)
+2. gitbash에서 git init : ~ 하위 파일들을 관리하겠다는 뜻
+3. git add (현재 폴더 내의 모든 폴더, 파일 임시저장)
 4. git commit -m "homeworkshop01 완료" (-m은 메세지라는 옵션,)
 5. git remote add origin https: ~~ 제일 긴 주소
 6. git push origin master : 최신화
@@ -35,3 +35,6 @@ git diff : git이 트래킹하고 있는 파일들을 찾아 차이점을 비교
 git pull github master : 
 git ignore : git에게 특정 파일들은 빼놓길 원할 때
 git readme : 만들 프로젝트에 대한 설명서를 쓰는 습관을 들여야 함.
+git remote -v : 어떤 주소가 별명인지 확인하는 법
+
+git pull origin master : origin이라고 하는 원격저장소의 master를 땡겨와
