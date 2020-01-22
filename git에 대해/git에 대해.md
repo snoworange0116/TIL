@@ -39,3 +39,5 @@ git remote -v : 어떤 주소가 별명인지 확인하는 법
 
 git pull origin master : origin이라고 하는 원격저장소의 master를 땡겨오는 기능임.
 
+
+
