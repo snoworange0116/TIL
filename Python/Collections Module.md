@@ -34,3 +34,9 @@ d.rotate(-1)
 ## 출력 : [2,3,4,5,1]
 ```
 
+2. Counter
+
+```python
+import 
+```
+
