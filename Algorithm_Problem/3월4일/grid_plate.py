@@ -2,9 +2,8 @@ def recur(x,y,tmp,num):
     global res_lst
     tmp += str(arr[x][y])
     if num == 7:
-        if tmp not in res_lst:
-            res_lst.append(tmp)
-            return
+        res_lst.append(tmp)
+        return
     else:
         for k in range(4):
             xn,yn = x+dx[k], y+dy[k]
@@ -22,4 +21,4 @@ for tc in range(1,t+1):
             num = 1
             tmp = ''
             recur(i,j,tmp,num)
-    print('#{} {}'.format(tc,len(res_lst)))
+    print('#{} {}'.format(tc,len(set(res_lst))))
