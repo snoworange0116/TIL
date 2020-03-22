@@ -10,6 +10,8 @@
 section, article, aside, header, footer, nav, main, hx, div, o, dl, dt, dd, ul, ol, p, audio, video, blockquote, canvas, fieldset, figure, figcaption, footer, form, table, tfoot, hr, noscript, pre 등등
 ```
 
+- 가운데 정렬 하는 법: `margin : 0 auto;`
+
 
 
 ### - Inline 요소
