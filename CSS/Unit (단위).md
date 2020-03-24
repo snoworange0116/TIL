@@ -27,7 +27,7 @@
 
   예를 들어 터치화면 양 변에 가득차는 정사각형을 만들 때는 아래와 같이 입력하면 된다.
 
-  ![image-20200316002416640](C:\Users\wooyoung\AppData\Roaming\Typora\typora-user-images\image-20200316002416640.png)
+  ![image-20200316002416640](./images/image-20200316002416640.png)
 
   ```css
   .test {
@@ -38,7 +38,7 @@
 
   만약 커버 이미지처럼 모든 네변이 스크린에 꽉 차야한다면 아래와 같이 입력하면 된다.
 
-  ![image-20200316002435849](C:\Users\wooyoung\AppData\Roaming\Typora\typora-user-images\image-20200316002435849.png)
+  ![image-20200316002435849](/images/image-20200316002435849.png)
 
   ```css
   .test {

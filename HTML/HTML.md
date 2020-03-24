@@ -2,7 +2,7 @@
 
  : 하이퍼텍스트를 가장 중요한 특징으로 하는 마크업이라는 형식을 가진 프로그래밍 언어
 
-![image-20200309194146008](C:\Users\wooyoung\AppData\Roaming\Typora\typora-user-images\image-20200309194146008.png)
+![image-20200309194146008](./images/image-20200309194146008.png)
 
 -  `<p>` : 콘텐츠 문단 의미
 - `<blockquote>` :  인용을 의미
