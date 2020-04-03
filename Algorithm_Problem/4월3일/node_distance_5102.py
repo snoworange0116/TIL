@@ -1,5 +1,5 @@
 # sw expert 노드의 거리 5102
-def BFS(st,ed,arr,visit):
+def BFS(st,ed):
     que = [[st, 0]]
     while que:
         x, cnt = que.pop(0)
@@ -24,5 +24,5 @@ for tc in range(1,t+1):
         arr[node[0]].append(node[1])
         arr[node[1]].append(node[0])
     # print(arr)
-    result = BFS(st,ed,arr,visit)
+    result = BFS(st,ed)
     print('#{} {}'.format(tc,result))

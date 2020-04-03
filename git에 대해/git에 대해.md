@@ -30,7 +30,7 @@ ls -a : 숨겨진 파일 목록까지 보는 것
 git init : ~ 하위 파일들을 관리하겠다는 뜻
 git status :  현재 git의 상태 보는 것
 git commit -m : git에 보내면서 남길 메세지
-git remote add github `올릴 주소` : github이라는 변수(?)에 올릴 주소를 할당 하겠다.
+git remote add github `올릴 주소` : github이라는 변수(?)에 올릴 주소를 할당하겠다.
 git diff : git이 트래킹하고 있는 파일들을 찾아 차이점을 비교해 줌
 git pull github master : 
 git ignore : git에게 특정 파일들은 빼놓길 원할 때
