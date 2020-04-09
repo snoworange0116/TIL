@@ -1,5 +1,4 @@
 # sw expert linkedlist 5108 숫자추가
-
 class Node:
     def __init__(self, data=0, next=None):
         self.data = data
@@ -57,11 +56,9 @@ class LinkedList:
 
     def deleteFirst(self):
         if self.size == 0: return # if lst.head is None: return과 같다
-
         self.head = self.head.next
         if self.head is None:
             self.head = self.tail = None
-
         self.size -= 1
 
     def insertAt(self, idx, new): #idx는 인덱스 값
