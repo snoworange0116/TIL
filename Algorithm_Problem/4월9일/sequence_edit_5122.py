@@ -16,4 +16,4 @@ for tc in range(1,t+1):
         result = -1
     else:
         result = arr[L]
-    print('#{} {}'.format(tc, result))
+    print('#{} {}'.format(tc, result)) 
