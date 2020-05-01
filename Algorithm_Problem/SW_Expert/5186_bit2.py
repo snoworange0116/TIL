@@ -1,3 +1,4 @@
+# sw expert advanced 5186 이진수2
 t = int(input())
 for tc in range(1,t+1):
     num = float(input())
