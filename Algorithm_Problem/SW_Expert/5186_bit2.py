@@ -2,7 +2,7 @@
 t = int(input())
 for tc in range(1,t+1):
     num = float(input())
-    cnt = 0
+    cnt = 0                                                            
     res = ''
     while num != 0 and cnt < 13:
         cnt += 1
